@@ -41,9 +41,9 @@ console.log(rest);
 
 /* ------------------------ definindo default values ------------------------ */
 
-/* Caso o array seja menor que a quantidade de variáveis usadas no destructuring
+/* caso o array seja menor que a quantidade de variáveis usadas no destructuring
 é possível definir default values para que essas variáveis não fiquem como
-undefined. */
+undefined */
 
 [a, b = 20] = [10];
 
@@ -233,7 +233,7 @@ console.log('\nDestructuring com retorno de funções null:');
 console.log(nome);
 
 /* -------------------------------------------------------------------------- */
-/*                     Destructuring com arrays e objetos                     */
+/*                     destructuring com arrays e objetos                     */
 /* -------------------------------------------------------------------------- */
 
 console.log("\nDESTRUCTURING COM ARRAYS E OBJETOS\n");
