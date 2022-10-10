@@ -1,0 +1,55 @@
+every: Verifica se todos os elementos do array atendem determinada condição.
+Retorna booleano.
+
+some: Verifica se no mínimo um elemento do array atende determinada condição.
+Retorna boolenano.
+
+# ---------------------------------------------------------------------------- #
+
+filter: Filtra os elementos do array que atendem determinada condição. Retorna
+um novo array (com os elementos filtrados).
+
+find: Filtra o primeiro elemento do array que atende determinada condição. Faz o
+processo da esquerda para a direita. Retorna o elemento (tipo pode variar).
+
+findLast: Filtra o primeiro elemento do array que atende determinada condição.
+Faz o processo da direita para a esquerda. Retorna o elemento (tipo pode variar).
+
+findIndex: Filtra o primeiro elemento do array que atende determinada condição.
+Faz o processo da esquerda para a direita. Retorna um valor inteiro (referente
+ao índice desse elemento).
+
+findLastIndex: Filtra o primeiro elemento do array que atende determinada
+condição. Faz o processo da direita para a esquerda. Retorna um valor inteiro
+(referente ao índice desse elemento).
+
+# ---------------------------------------------------------------------------- #
+
+forEach: Percorre os elementos do array e aplica uma ação sobre eles. Não há
+valor de retorno.
+
+map: Percorre os elementos do array e aplica uma ação sobre. Retorna um novo
+array.
+
+flatMap: Percorre os elementos do array e aplica uma ação sobre. Retorna um novo
+array com 1 grau de achatamento (depth).
+
+# ---------------------------------------------------------------------------- #
+
+includes: Verifica se um determinado elemento está contido dentro do array.
+Retorna booleano.
+
+indexOf: Verifica se um determinado elemento está contido dentro do array.
+Retorna um valor inteiro (referente ao índice desse elemento; retorna o
+primeiro).
+
+lastIndexOf: Verifica se um determinado elemento está contido dentro do array.
+Retorna um valor inteiro (referente ao índice desse elemento; retorna o último).
+
+# ---------------------------------------------------------------------------- #
+
+reduce: Percorre o array e retorna um valor com base nos elementos percorridos.
+Retorna um valor inteiro.
+
+reduceRight: Percorre o array (da direita para esquerda e retorna um valor com
+base nos elementos percorridos. Retorna um valor inteiro.
