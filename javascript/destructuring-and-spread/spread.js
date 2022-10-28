@@ -35,6 +35,15 @@ const date = new Date(...dateFields);
 console.log("\nSpread em classes:");
 console.log(date);
 
+/* -------------------------- spread em flat arrays ------------------------- */
+
+const unflatArr = [1, 2, [3, 4]];
+
+const flattened = (arr) => [].concat(...arr);
+
+console.log("\nSpread em flat arrays");
+console.log(flattened(unflatArr));
+
 /* -------------------------------------------------------------------------- */
 /*                              spread em objetos                             */
 /* -------------------------------------------------------------------------- */
